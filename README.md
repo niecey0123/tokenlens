@@ -70,19 +70,5 @@ tokenlens/
 └── .gitignore                  # Standard Git ignore rules
 ```
 
----
 
-## Quickstart: Hosting Your Live Demo on GitHub Pages
-
-Because `index.html` is a zero-build, single-file interactive prototype, you can host it live on **GitHub Pages** in under 60 seconds:
-
-1. Download `index.html` from the interactive preview panel and place it in the root of this repository.
-2. Push all files to your GitHub repository (`main` branch).
-3. Go to **Settings -> Pages -> Build and deployment**.
-4. Select **Deploy from a branch** -> choose `main` and `/ (root)` -> click **Save**.
-5. Share your live URL (`https://<your-username>.github.io/tokenlens/`) directly on your LinkedIn featured section and resume.
-
----
-
-## Architected By
 **Shaniece Crumpler** — Technical Product & Program Manager | AI Orchestration, Cloud Systems & Agile Delivery
