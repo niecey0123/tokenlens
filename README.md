@@ -71,4 +71,3 @@ tokenlens/
 ```
 
 
-**Shaniece Crumpler** — Technical Product & Program Manager | AI Orchestration, Cloud Systems & Agile Delivery
