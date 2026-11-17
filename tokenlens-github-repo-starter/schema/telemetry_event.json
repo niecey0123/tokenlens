@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TokenLens Telemetry Event",
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "run_id",
+    "step_name",
+    "step_order",
+    "model_used",
+    "prompt_tokens",
+    "completion_tokens",
+    "latency_ms",
+    "eval_pass"
+  ],
+  "properties": {
+    "workflow_id": { "type": "string", "example": "wf_call_eval_v4" },
+    "run_id": { "type": "string", "example": "run_9842a7c1-8b2e-43f1" },
+    "timestamp": { "type": "string", "format": "date-time" },
+    "step_name": { "type": "string", "example": "Step 2: Policy Tagging" },
+    "step_order": { "type": "integer", "example": 2 },
+    "model_used": { "type": "string", "example": "claude-opus-5-5" },
+    "prompt_tokens": { "type": "integer", "example": 1420 },
+    "completion_tokens": { "type": "integer", "example": 185 },
+    "vector_db_cost_usd": { "type": "number", "example": 0.0004 },
+    "latency_ms": { "type": "integer", "example": 1140 },
+    "eval_pass": { "type": "boolean", "example": true },
+    "human_rework_required": { "type": "boolean", "example": false }
+  }
+}
